@@ -1,0 +1,32 @@
+CÓMO USAR LA PÁGINA - DÍA DE LA MUJER YULY
+==========================================
+
+TÍTULO DE LA PÁGINA: FELIZ DÍA DE LA MUJER YULY
+
+1. ABRIR LA PÁGINA (tu "link" local)
+   - Haz doble clic en index.html para abrirlo en el navegador.
+   - O arrastra index.html a Chrome, Edge o Firefox.
+   - LINK para abrir: file:///D:/CURSOR/dia-de-la-mujer-yuly/index.html
+     (Copia y pega esa ruta en la barra del navegador si hace falta.)
+
+2. AUDIO DE AMOR DE FONDO
+   - Coloca tu archivo de audio en esta misma carpeta.
+   - Nómbralo: audio-amor.mp3 (o audio-amor.ogg)
+   - Si usas otro nombre, abre index.html y cambia la línea:
+     <source src="audio-amor.mp3" type="audio/mpeg">
+     por tu nombre de archivo.
+
+3. PERSONALIZAR (opcional)
+   - Puedes cambiar el video de YouTube editando index.html
+     y buscando: youtube.com/embed/XXXX
+     Sustituye XXXX por el ID de otro video que quieras.
+   - Las imágenes usan enlaces de Internet; si quieres fotos
+     personales, sustituye las URLs en las etiquetas <img>.
+
+4. COMPARTIR CON UN LINK DE INTERNET (opcional)
+   - Para que Yuly pueda entrar con un link tipo https://...
+     sube la carpeta a GitHub y activa GitHub Pages, o usa
+     Netlify Drop (arrastrando la carpeta a netlify.com/drop).
+   - Así tendrás una URL que puedes enviarle por WhatsApp o correo.
+
+¡Feliz Día de la Mujer!
